@@ -1,1 +1,10 @@
+title: Pangrj Blog
+SEOTitle: Pangrj Blog
+email: pangrj@buaa.edu.cn
+description: "Nice to meet you!  —— Pangrj"
+url: "https://pangrj.github.io"
 theme: jekyll-theme-minimal
+deploy:
+  type: git
+  repository: git@github.com:pangrj/pangrj.github.io.git
+  branch: main
