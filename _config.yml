@@ -8,3 +8,4 @@ deploy:
   type: git
   repository: git@github.com:pangrj/pangrj.github.io.git
   branch: main
+layout: _posts
