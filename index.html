@@ -100,16 +100,16 @@
 
     .publications {
       display: grid;
-      grid-template-columns: minmax(0, 760px);
+      grid-template-columns: minmax(0, 960px);
       gap: 18px;
       margin-top: 22px;
     }
 
     .pub-card {
       display: grid;
-      grid-template-columns: 136px minmax(0, 1fr);
-      gap: 18px;
-      padding: 16px;
+      grid-template-columns: 280px minmax(0, 1fr);
+      gap: 20px;
+      padding: 18px;
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--surface);
@@ -117,8 +117,8 @@
     }
 
     .pub-cover {
-      width: 136px;
-      aspect-ratio: 0.78;
+      width: 280px;
+      aspect-ratio: 2.66;
       border: 1px solid #cfd5df;
       border-radius: 6px;
       object-fit: cover;
@@ -199,12 +199,13 @@
       }
 
       .pub-card {
-        grid-template-columns: 96px minmax(0, 1fr);
+        grid-template-columns: 1fr;
         gap: 12px;
       }
 
       .pub-cover {
-        width: 96px;
+        width: 100%;
+        max-width: 360px;
       }
     }
   </style>
@@ -231,23 +232,14 @@
 
     <section class="section bio">
       <h2>Short Bio</h2>
-      <p>
-        Ruijia Pang is a Ph.D. student at <a href="https://www.buaa.edu.cn/">Beihang University</a>.
-        His research interests include artificial intelligence, data-driven modeling,
-        and intelligent systems. He is interested in building practical AI methods
-        that connect computational models with real-world scientific and engineering problems.
-      </p>
-      <p>
-        This homepage collects selected publications and research outputs. More details
-        will be added as the publication list is updated.
-      </p>
+      <p>To be added.</p>
     </section>
 
     <section class="section">
       <h2>Publications</h2>
       <div class="publications">
         <article class="pub-card">
-          <img class="pub-cover" src="assets/covers/publication-1.svg" alt="Publication cover">
+          <img class="pub-cover" src="assets/covers/embodied-cobodied-ai.jpg" alt="From embodied AI to cobodied AI figure">
           <div>
             <h3 class="pub-title">From embodied AI to cobodied AI: Foundations and frontiers</h3>
             <p class="pub-authors">Feng Lu, <strong>Ruijia Pang</strong>, Bosong Qi, Qinping Zhao</p>
