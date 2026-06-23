@@ -6,5 +6,5 @@ url: "https://pangrj.github.io"
 theme: jekyll-theme-minimal
 deploy:
   type: git
-  repository: git@github.com:pangrj/phiaiPage.git
+  repository: git@github.com:pangrj/pangrj.github.io.git
   branch: main
