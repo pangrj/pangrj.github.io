@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">A clean academic profile placeholder.</desc>
+  <rect width="500" height="500" fill="#eef2f7"/>
+  <circle cx="250" cy="178" r="72" fill="#c9d4e2"/>
+  <path d="M110 430c18-94 74-146 140-146s122 52 140 146" fill="#9fb1c7"/>
+  <path d="M0 0h500v500H0z" fill="none" stroke="#d8dce3" stroke-width="2"/>
+  <text x="250" y="462" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#2f3a48">Pangrj</text>
+</svg>
